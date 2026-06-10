@@ -7,9 +7,9 @@ const Profile = ({user,age}) => {
    < >
    <div className="card">
       <img src="https://img.magnific.com/free-vector/graident-ai-robot-vectorart_78370-4114.jpg?semt=ais_hybrid&w=740&q=80" alt="" />
-      <h2>{user}</h2>
-      <p>{age}</p>
-      <a href="">View Profile</a>
+      <h2>{user} , {age}</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <a href="#">View Profile</a>
     </div>
    </>
   )
