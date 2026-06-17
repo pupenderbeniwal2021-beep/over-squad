@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.MainCards{
+    padding: 20px;
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+.Card{
+    width: 3
+    00px;
+    border: 2px solid white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #333;
+}
+.Card p{
+    margin: 20px 0;
+}
+.Card button{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px; 
+}
