@@ -115,36 +115,42 @@ const users = [
     intro: "Frontend Developer passionate about React and UI Design.",
     tag: "React Developer",
     color:'royalblue',
+    scolor:'navy',
   },
   {
     img: "https://plus.unsplash.com/premium_photo-1672691612717-954cdfaaa8c5?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     intro: "Full Stack Developer with expertise in MERN Stack.",
     tag: "MERN Developer",
     color:'lightseagreen',
+    scolor:'teal',
   },
   {
     img: "https://plus.unsplash.com/premium_photo-1661766386981-1140b7b37193?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     intro: "UI/UX Designer creating beautiful user experiences.",
     tag: "UI/UX Designer",
     color:'black',
+    scolor:'darkorange',
   },
   {
     img: "https://images.unsplash.com/photo-1600275669439-14e40452d20b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     intro: "Backend Engineer specializing in Node.js and APIs.",
     tag: "Backend Developer",
    color:'green',
+   scolor:'darkgreen',
   },
   {
     img: "https://images.unsplash.com/photo-1543269664-56d93c1b41a6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     intro: "Mobile App Developer building Android and iOS apps.",
     tag: "React Native Developer",
    color:'orange',
+   scolor:'#EA580C',
   },
   {
     img: "https://plus.unsplash.com/premium_photo-1731355865761-69e8d539e328?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     intro: "Software Engineer interested in cloud technologies.",
     tag: "Cloud Engineer",
     color:'purple',
+    scolor:'#6D28D9',
   },
 ];
 
