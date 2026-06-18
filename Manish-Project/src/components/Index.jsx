@@ -1,5 +1,6 @@
 import React from "react";
 import '../Css/Index.css';
+import card from './assets/Card.jpg'
 function Index (){
     return(
     <div className="MainCards">
