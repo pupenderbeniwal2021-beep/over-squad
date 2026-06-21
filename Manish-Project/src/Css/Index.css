@@ -7,20 +7,26 @@ body{
     background-color: black;
     color: white;
 }
-.MainCards{
+
+/* .MainCards{
     padding: 20px;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     flex-wrap: wrap;
-}
-.Card{
-    width: 3
-    00px;
+} */
+/* .Card{
+    width: 300px;
     border: 2px solid white;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    background-color: #333;
+    background-color: #222;
+}
+.Card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 .Card p{
     margin: 20px 0;
@@ -31,4 +37,91 @@ body{
     color: black;
     border: none;
     border-radius: 5px; 
+} */
+ 
+.card{
+    height: auto;
+    width: 280px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.top img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #dadada;
+}
+.top button{
+    display: flex;
+    align-items: center;
+    border: 1px solid #dadada;
+    padding: 3px 6px;
+    font-size: 10px;
+    border-radius: 5px;
+    gap: 3px;
+    background-color: transparent;
+    color: #b1b1b1;
+}
+.top .icon{
+    font-size: 12px;
+    color: #dadada;
+}
+.center h3{
+    font-size: 17px;
+    font-weight: 600;
+}
+.center h3 span{
+    font-size: 12px;
+    font-weight: 400;
+    color: #8b8b8b;
+}
+.center h2{
+    font-size: 20px;
+    font-weight: 800;
+}
+.center .timejob{
+    display: flex;
+    gap: 5px;
+    margin-top: 12px;
+    gap: 10px;
+}
+.center .timejob h4{
+    font-size: 12px;
+    background-color: #dadada;
+    color: #111;
+    padding: 3px 6px;
+    font-weight: 500;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1.5px solid #d7d7d7ce;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+.bottom h3{
+    font-size: 18px;
+}
+.bottom p{
+    font-size: 14px;
+    color: #8b8b8b;
+}
+.bottom button{
+    background-color: #111;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    border-radius: 600;
 }
