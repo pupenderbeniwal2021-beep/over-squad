@@ -3,6 +3,8 @@ import React from "react";
 import "./App.css";
 import Project from "./components/Project/Project";
 import Section2 from "./components/Project/Section2";
+import Project2 from "./components/Project/Project2";
+// import Index2 from "./components/Index2";
 
 
 // function App() {
@@ -173,8 +175,10 @@ import Section2 from "./components/Project/Section2";
 function App(){
     return (
   <div>
-    <Project users={users}/>
-    <Section2 />
+    {/* <Project users={users}/>
+    <Section2 /> */}
+    {/* <Index2/> */}
+    <Project2/>
   </div>
 );
 }
