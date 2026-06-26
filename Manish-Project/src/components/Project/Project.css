@@ -1,3 +1,6 @@
 #mainright::-webkit-scrollbar{
     display: none;
 }
+.rightnotes .rightcontent::-webkit-scrollbar{
+    display: none;
+}
