@@ -32,6 +32,17 @@ const Project2 = () => {
     setTask(copyTask);
   };
 
+   // Delete All
+  const deleteAll = (idx) => {
+    const copyTask = [...task];
+    copyTask.splice(idx
+
+
+      
+    );
+    setTask(copyTask);
+  };
+
   return (
     <div className="bg-black h-screen w-full lg:flex text-white overflow-hidden">
       <form
@@ -65,10 +76,18 @@ const Project2 = () => {
       </form>
 
       <div className="lg:w-1/2 lg:border-l-2 p-10 bg-[#333] rightnotes h-full flex flex-col">
-        <h1 className="text-2xl font-bold bg-[#222] w-45 text-center rounded-sm py-1 flex-shrink-0">
-          Recents Notes
-        </h1>
-
+        <div className="notesheadsection flex justify-between">
+          <h1 className="text-2xl font-bold bg-[#222] w-45 text-center rounded-sm py-1 flex-shrink-0">
+            Recents Notes
+          </h1>
+          <button 
+          onClick={() => {
+                    deleteAll(idx);
+                  }}
+          className="text-2xl font-bold bg-red-600 w-45 text-center rounded-sm py-1 flex-shrink-0 cursor-pointer active:bg-red-700 active:scale-95">
+            Clear All
+          </button>
+        </div>
         <div className="flex flex-wrap gap-5 mt-5 flex-1 overflow-y-auto pt-5 pb-5 rightcontent content-start">
           {task.map((elem, idx) => {
             return (
